@@ -1,0 +1,1095 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: atillia;
+}
+
+html,
+body {
+    /* height: 100%; */
+    width: 100%;
+    /* font-family: "Signika", sans-serif; */
+}
+
+#main {
+    width: 100%;
+}
+
+/* #nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 14vh;
+    width: 100%;
+    padding: 0px 20px;
+    background-color: transparent;
+    border: 1px solid black;
+    box-shadow: 0px 0px 50px 1px black;
+} */
+
+/* #nav #nav-elems {
+    display: flex;
+    gap: 30px;
+} */
+
+/* #nav-elems a {
+    color: rgb(116, 46, 213);
+    color: #dadada;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all ease 0.5s;
+    font-size: 1.9vw;
+} */
+
+/* #nav-elems a:hover {
+    color: black;
+    transition: all ease 0.5s;
+    border-bottom: 3px solid black;
+    background-color: white;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 10px;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+
+.nav {
+    height: 80px;
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+    color: white;
+    z-index: 100;
+    position: fixed;
+    font-family: "Fuzzy Bubbles", sans-serif;
+
+}
+
+.nav>.nav-header {
+    display: inline;
+}
+
+.nav>.nav-header>.nav-title {
+    display: inline-block;
+    font-size: 20px;
+    /* color: #fff; */
+    padding: 10px 10px 10px 10px;
+}
+
+.nav>.nav-btn {
+    display: none;
+}
+
+.nav>.nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.nav>.nav-links>a {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 25px 10px 13px 32px;
+    text-decoration: none;
+    /* color: #efefef; */
+    color: white;
+    /* font-family: "Fuzzy Bubbles", sans-serif; */
+    font-family: "Space Mono", monospace;
+    /* font-weight: 500; */
+    /* color: #1e2a2d; */
+}
+
+.nav>.nav-links>a:hover {
+    /* font-weight: 500;
+    color:#f5ebe0;
+  transform: scale(1.1);
+  cursor: pointer;
+  background-color: black;
+  border: 8px solid blue;
+  border-radius: 20px;
+  transition: all ease-in .3s */
+    color: black;
+    transition: all ease-in .3s;
+    /* border-bottom: 1px solid black; */
+    background-color: rgb(190, 31, 169);
+    padding: 10px 0px 0px 0px;
+    cursor: pointer;
+    border-radius: 10px;
+    transform: scale(1.2);
+}
+
+.nav>#nav-check {
+    display: none;
+}
+
+#page4 .nav{
+    background-color: pink;
+}
+#page3 .nav{
+    background-color: red;
+}
+
+/* Page1 */
+
+#page1 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    background-image: url("hand.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#page1-img {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#page1-text h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    width: 65%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 4.2vw;
+    font-family: gilroy;
+    font-weight: 600;
+    letter-spacing: 2px;
+    /* -webkit-text-stroke: 1px #adadad; */
+}
+
+#page1 h1 span {
+    font-family: dancing script;
+    color: rgb(201, 15, 183);
+    font-weight: lighter;
+}
+
+#scroll {
+    position: absolute;
+    /* bottom: -500px; */
+    top: 90%;
+    left: 10%;
+    transform-origin: 0% 50%;
+    transform: rotate(-90deg);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#scroll h4 {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: darkblue;
+    font-size: 20px;
+}
+
+#scroll #line {
+    width: 140px;
+    height: 2px;
+    background-color: darkblue;
+}
+
+#slide {
+    background-color: #219ebc;
+}
+
+.slide1-of-h1 {
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor: default;
+}
+
+.slide1-of-h1::-webkit-scrollbar {
+    display: none;
+}
+
+#slide h1 {
+    font-size: 8vw;
+    text-transform: uppercase;
+    line-height: 18vh;
+    font-weight: bolder;
+}
+
+#slide h1 .one1 {
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(133, 15, 34);
+}
+
+/* ////////////////////////////////////////////////////// */
+
+/* ////////////////////////////////////////////////////////// */
+
+/* Page2 */
+
+
+#page2 {
+    /* height: 80%; */
+    width: 100%;
+    /* background: linear-gradient(to left, #195799, #1A9EB8); */
+    background-color: #232025;
+    /* background-color: #232025; */
+}
+
+#page2 img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 0.7;
+}
+
+
+/* Page3 */
+
+
+#page3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* background: linear-gradient(to left, #195799, #1A9EB8); */
+    background-color: #232025;
+    /* background-color: rgb(71, 71, 79); */
+    flex-wrap: wrap;
+    font-family: "Signika", sans-serif;
+
+}
+
+#page3 #left span {
+    color: #006AE9;
+    font-weight: 700;
+}
+
+#page3 #left {
+    width: 60%;
+    height: 100%;
+}
+
+#page3 #right {
+    width: 35%;
+    height: 100%;
+}
+
+#page3 #btn-1 {
+    border: none;
+    /* background-color: #006AE9;
+    color: white; */
+    color: #006AE9;
+    background-color: white;
+    font-size: 2vw;
+    padding: 10px 2px;
+    margin: 20px 100px;
+    font-weight: bold;
+    /* font-family: gilroy; */
+    border-radius: 7px;
+    width: 15vw;
+}
+
+#page3 #btn-1:hover {
+    background-color: black;
+    color: white;
+}
+
+#page3 #left h1 {
+    margin: 20px 100px;
+    color: blue;
+    font-size: 3vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* font-family: gilroy; */
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+#page3 #left h3 {
+    margin: 20px 100px;
+    color: black;
+    font-size: 24px;
+    width: 80%;
+    color: white;
+    line-height: 1.3;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+
+}
+
+#page3 #left img {
+    width: 100%;
+    padding: 10px 90px;
+}
+
+#right #btn-2 {
+    border: none;
+    /* background-color: purple; */
+    /* background-color: #006AE9;
+    color: white; */
+    width: 50%;
+    font-size: 1.5vw;
+    padding: 10px 20px;
+    margin: 70px 20px;
+    font-weight: 500;
+    color: #006AE9;
+    background-color: white;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#right span {
+    font-size: 50px;
+    color: #006AE9;
+    font-weight: 900;
+    line-height: 100px;
+    margin-left: 2vw;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#experience {
+    font-size: 26px;
+    line-height: 1.3;
+    color: white;
+    border-bottom: 2px solid grey;
+    padding-bottom: 20px;
+    margin-left: 2vw;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#work {
+    font-size: 26px;
+    color: white;
+    line-height: 1.3;
+    margin-left: 2vw;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Page4 */
+#page4 {
+    width: 100%;
+    height: 100%;
+    background-color: #232025;
+}
+
+/* //////////////////////////////////// */
+#page4slide {
+    background-color: #219ebc;
+}
+
+.slide1-of-h1 {
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor: default;
+}
+
+.slide1-of-h1::-webkit-scrollbar {
+    display: none;
+}
+
+#page4slide h1 {
+    font-size: 7vw;
+    text-transform: uppercase;
+    line-height: 16vh;
+    font-weight: bolder;
+}
+
+#page4slide h1 .one1 {
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(109, 14, 30);
+}
+
+/* //////////////////////////////////// */
+#page4 #top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#s-one h1 {
+    font-size: 3vw;
+    font-weight: 700;
+    color: #006AE9;
+}
+
+#s-two h1 {
+    margin: 25px 0px;
+
+    color: black;
+    font-size: 4vw;
+    font-weight: bolder;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    line-height: 1;
+    color: white;
+}
+
+#bottom {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 260px;
+    padding: 20px 1px;
+    margin: 10px 0;
+    /* transition: all ease 0.9s; */
+    transition: all ease .8s;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 10px 15px -3px rgba(33, 150, 243, .4), 0 4px 6px -4px rgba(33, 150, 243, .4);
+    border-radius: 10px;
+    background-color: #6B6ECC;
+    background: linear-gradient(45deg, #04051dea 0%, #2b566e 100%);
+}
+
+.content {
+    padding: 20px;
+}
+
+.content .price {
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
+}
+
+.content .description {
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 2;
+    text-transform: capitalize;
+}
+
+.content .title {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.64);
+    margin-top: 10px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid white;
+}
+
+button {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: none;
+    outline: none;
+    color: rgb(255 255 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .75rem;
+    padding: 0.75rem 1.5rem;
+    background-color: rgb(33 150 243);
+    border-radius: 0.5rem;
+    width: 90%;
+    text-shadow: 0px 4px 18px #2c3442;
+}
+
+.card:hover {
+    scale: 1.07;
+    /* scale: 1.2; */
+    /* transition: all ease 2s; */
+}
+
+.card button:hover {
+    color: black;
+    background-color: white;
+}
+
+/*       ////////////                      page5               */
+#page5 {
+    background-color: #232025;
+}
+
+#page5-text {
+    padding: 30px 90px;
+    line-height: 0;
+}
+
+#page5-text h1 span {
+    color: #219ebc;
+}
+
+#page5-text h1 {
+    color: white;
+    font-size: 4.4vmax;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0vmax;
+    font-weight: 600;
+}
+
+#page5-text h5 {
+    font-size: 2.2vmax;
+    font-family: gilroy;
+    margin-bottom: 1.4vmax;
+    color: white;
+}
+
+#page5-icons {
+    /* background-color: red; */
+    width: 100%;
+}
+
+#page5-icons button {
+    width: 13vw;
+    font-size: 20px;
+    margin: 0px 90px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+#page5-icons button:hover {
+    background-color: white;
+    color: black;
+}
+
+#icons img {
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    width: 11%;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#icons {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* justify-content:flex-start; */
+    gap: 10px;
+    /* background-color: red; */
+    padding: 30px 90px;
+}
+
+#designing {
+    display: flex;
+    align-items: center;
+    /* justify-content:flex-start; */
+    gap: 8px;
+    /* background-color: red; */
+    padding: 30px 90px;
+}
+
+#designing img {
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    width: 10%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* //////////////////////////page6//////////////////////// */
+
+#page6 #work-text {
+    padding: 25px 30px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+#page6 #work-text h5{
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#page6 {
+    background-color: black;
+    
+}
+
+#page6 h1 {
+    text-transform: capitalize;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+#page6 h1 span {
+    color: red;
+}
+
+#work-img {
+    background-color: #dadada;
+    margin: 0px 30px;
+}
+
+#up-line img {
+    width: 21%;
+    /* height: 14vmax; */
+    /* box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.4); */
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+#up-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+#down-line {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    gap: 10px;
+}
+
+#down-line img {
+    width: 23%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+/* //////////////////////////////////////////////page7//////////////////////// */
+#page7 {
+    background-color: #232025;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#page7 #left {
+    width: 50%;
+    height: 100%;
+}
+
+#page7 #left h1 {
+    color: white;
+    width: 700px;
+    margin: 0 auto;
+    font-size: 4.8rem;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+#page7 #left #one a {
+    color: #F3BA2C;
+}
+
+#page7 #left #two a {
+    color: #CA3E80;
+}
+
+#page7 #left #three a {
+    color: rgb(10, 137, 229);
+}
+
+#page7 #left #one a:hover {
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+#page7 #left #two a:hover {
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+#page7 #left #three a:hover {
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+#page7 #left #four a {
+    /* font-size: px ; */
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+
+#page7 #left #four a:hover {
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+#page7 #left #five a {
+    color: red;
+}
+
+#page7 #left #five a:hover {
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+#page7 #left #six a {
+    -webkit-text-stroke: 2px white;
+    color: whitesmoke;
+}
+
+#page7 #left #six a:hover {
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+
+/* ///////////////////////////contact form////////////////// */
+#page7 #left h2 {
+    color: white;
+    padding: 0px 30px;
+}
+
+#page7 #right {
+    width: 50%;
+    height: 100%;
+}
+
+#contact-form .container {
+    margin: 20px 80px;
+    background: linear-gradient(45deg, #04051dea 0%, #2b566e 100%);
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#page7 #right #contact-form h2 {
+    text-align: center;
+}
+
+#page7 #right #contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#page7 #right #contact-form .input-field {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+#page7 #right #contact-form button {
+    width: 40%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+#footer{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+
+
+
+
+
+/*  my css */
+
+/* * {
+    box-sizing: border-box;
+  } */
+
+
+@media (max-width:600px) {
+    .nav>.nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+
+    .nav>.nav-btn>label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 30px 10px;
+    }
+
+    .nav>.nav-btn>label:hover,
+    .nav #nav-check:checked~.nav-btn>label {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .nav>.nav-btn>label>span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        color: black;
+        border-top: 2px solid black;
+    }
+
+    .nav>.nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: white;
+        font-weight: 700;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+    }
+
+
+    .nav>.nav-links>a {
+        display: block;
+        transition: transform 0.3s ease;
+        width: 100%;
+        border-bottom: 2px solid grey;
+    }
+
+    .nav>#nav-check:not(:checked)~.nav-links {
+        height: 0px;
+    }
+
+    .nav>#nav-check:checked~.nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+    }
+
+    .nav>.nav-links>a:hover {
+        color: blue;
+        border-bottom: 2px solid grey;
+        transform: scale(1.3);
+    }
+}
+
+
+
+/* For phones */
+@media only screen and (max-width: 768px) {
+
+    /* Your CSS styles for phones here */
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        background-color: #f4f4f4;
+        color: #333;
+
+    }
+
+    #page7 #left h1 {
+        font-size: 2rem;
+        width: 268px;
+        margin: 0 auto;
+        padding: 10px 0px;
+    }
+
+    #contact-form .container {
+        margin: 20px 0px;
+    }
+
+
+    #page5-icons button {
+        width: 52vw;
+    }
+
+    #icons {
+        padding: 20px 10px;
+        margin: 0 10px;
+    }
+
+    #designing img {
+        /* padding: 20px 10px ; */
+        width: 15vw;
+        margin: 0 8px;
+    }
+
+    #page3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #page3 #left h3 {
+        width: 79vw;
+        margin: 20px 20px;
+    }
+
+    #page3 #left h1 {
+        margin: 20px 20px;
+        color: blue;
+        width: 98vw;
+        font-size: 8vw;
+    }
+
+    #page3 #left img {
+        width: 89vw;
+        padding: 10px 0px;
+        margin: 0 20px;
+    }
+
+
+
+
+    #page3 #btn-1 {
+
+        font-size: 7vw;
+        padding: 4px 2px;
+        margin: 18px 18px;
+        width: 63vw;
+    }
+
+    #right #btn-2 {
+        font-size: 7vw;
+        padding: 4px 2px;
+        margin: 18px 18px;
+        width: 63vw;
+    }
+
+    #experience {
+        margin: 18px 18px;
+        width: 86vw;
+
+    }
+
+    #work {
+        margin: 18px 18px;
+        width: 86vw;
+
+    }
+
+    #s-two h1 {
+        font-size: 1.6rem;
+    }
+
+
+
+}
+
+/* For iPads */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Your CSS styles for iPads here */
+
+    #page7 {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    #page7 #left h1 {
+        font-size: 4rem;
+        width: 50vw;
+    }
+
+    #contact-form {
+        margin: 0 auto;
+        max-width: 800px;
+    }
+
+    #work {
+        margin: 0px;
+    }
+}
+
+
+
+@media only screen and (min-width: 820px) and (max-width: 1180px) {
+
+    #page5-icons button {
+        max-width: 20vw;
+        border: transparent;
+    }
+
+    nav>.nav-links {
+        /* display: inline-block;  */
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 19px 24px 1px 23px;
+        text-decoration: none;
+        /* color: #efefef; */
+        color: black;
+    }
+
+}
+
+
+
+
+
+/* media only screen and (min-width: 820px) and (max-width: 1180px){
+
+    #page5-icons button{
+        max-width: 20vw;
+        border: transparent;
+    }
+
+    nav > .nav-links {
+        /* display: inline-block;  */
+/* text-align: center;
+    font-size: 1.2rem;
+    padding: 19px 24px 1px 23px;
+    text-decoration: none;
+    /* color: #efefef; */
+/* color: black;
+    }
+
+  /* } */
