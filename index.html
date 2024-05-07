@@ -281,23 +281,38 @@
                     <div class="container text-light">
                         <h2>Contact Us</h2>
                         <form action="https://api.web3forms.com/submit" method="POST">
-
                             <input type="hidden" name="access_key" value="a4fd18e8-aad3-4e1e-8efc-31d0514e4f41">
-
+                        
                             <div class="input-field text-light">
                                 <label for="name">Name</label>
                                 <input id="name" type="text" class="validate" name="name" required>
                             </div>
+                        
                             <div class="input-field text-light">
                                 <label for="email">Email</label>
                                 <input id="email" type="email" class="validate" name="email" required>
                             </div>
+                        
+                            <!-- Dropdown -->
+                            <div class="input-field text-light">
+                                <label for="services">Choose a service:</label>
+                                <select name="services" id="services" required>
+                                    <option value="our">Our Services</option>
+                                    <option value="other_services">Other Services</option>
+                                    <option value="standard_recommended">Standard Recommended</option>
+                                    <option value="basic_package">Basic Package</option>
+                                </select>
+                            </div>
+                            <!-- End Dropdown -->
+                        
                             <div class="input-field text-light">
                                 <label for="message">Message</label>
                                 <textarea id="message" class="materialize-textarea" name="message" required></textarea>
                             </div>
+                        
                             <button type="submit">Submit</button>
                         </form>
+                        
                     </div>
                 </div>
             </div>
