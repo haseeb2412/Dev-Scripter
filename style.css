@@ -65,9 +65,15 @@ body {
     position: relative;
     color: white;
     z-index: 100;
+    /* overflow: auto; */
     position: fixed;
+    display: flex;
+    flex-wrap: wrap;
     font-family: "Fuzzy Bubbles", sans-serif;
 
+}
+.nav::-webkit-scrollbar {
+    display: none;
 }
 
 .nav>.nav-header {
@@ -103,10 +109,9 @@ body {
     text-decoration: none;
     /* color: #efefef; */
     color: white;
-    /* font-family: "Fuzzy Bubbles", sans-serif; */
-    font-family: "Space Mono", monospace;
-    /* font-weight: 500; */
-    /* color: #1e2a2d; */
+    font-family: "Fuzzy Bubbles", sans-serif;
+    /* font-family: "Space Mono", monospace; */
+    font-weight: 700;
 }
 
 .nav>.nav-links>a:hover {
@@ -118,13 +123,10 @@ body {
   border: 8px solid blue;
   border-radius: 20px;
   transition: all ease-in .3s */
-    color: black;
+
     transition: all ease-in .3s;
     /* border-bottom: 1px solid black; */
-    background-color: rgb(190, 31, 169);
-    padding: 10px 0px 0px 0px;
     cursor: pointer;
-    border-radius: 10px;
     transform: scale(1.2);
 }
 
@@ -850,12 +852,13 @@ button:hover {
     width: 100%;
     background-color: black;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    word-spacing: 3px;
 }
+#footer{
 
+}
 
 
 
@@ -913,9 +916,13 @@ button:hover {
         display: block;
         transition: transform 0.3s ease;
         width: 100%;
+        color: black;
         border-bottom: 2px solid grey;
     }
 
+    .nav>.nav-links>a:hover{
+        transform: scale(1.2);
+    }
     .nav>#nav-check:not(:checked)~.nav-links {
         height: 0px;
     }
@@ -1039,6 +1046,7 @@ button:hover {
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     /* Your CSS styles for iPads here */
 
+  
     #page7 {
         display: flex;
         flex-direction: column;
@@ -1064,6 +1072,20 @@ button:hover {
 
 @media only screen and (min-width: 820px) and (max-width: 1180px) {
 
+
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .nav>.nav-links>a{
+        margin-top: -80px;
+        /* display: flex; */
+        gap: 5px;
+    }
+    
+
     #page5-icons button {
         max-width: 20vw;
         border: transparent;
@@ -1078,6 +1100,9 @@ button:hover {
         /* color: #efefef; */
         color: black;
     }
+
+    
+
 
 }
 
